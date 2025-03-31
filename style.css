@@ -1,3 +1,5 @@
+
+
 .Header{
     display: flex;
     justify-content: space-between;
@@ -5,10 +7,12 @@
     margin-bottom: 60px;
     background-color: blanchedalmond;
 } 
+
 #logo{
     width: 100px;
     height: 100px;
 }
+
 #logo img{
     width: 100%;
 }
@@ -57,6 +61,8 @@
     justify-content: center;
     width: 100%;    
     margin-bottom: 80px;
+    z-index: 1000;
+    pointer-events: auto;
 }
 
 #GetPuzzle,#SolvePuzzle{
@@ -64,38 +70,38 @@
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    background-color: #538fbe;
+    background-color: #627ac9;
     padding: 10px 35px;
     font-size: 24px;
-    border: 1px solid #2d6898;
+    border: 1px solid #4f69be;
     box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
     margin-right: 10px;
 }
 
 .box1{
-    background-color: #1520A6;
+    background-color: #a166aa;
     border: 2px solid  white;
 }
 
 .box1:hover{
-    background-color: #48aaaD;
+    background-color: #c6e158e4;
     color: black;
 }
 
 .box2{
-    background-color: #BC5448;
+    background-color: #a166aa;
     border: 2px solid  white;
 }
 .box2:hover{
-    background-color: red;
+    background-color: #c6e158e4;
 }
 
 .box3{
-    background-color: #028a0f;
+    background-color: #a166aa;
     border: 2px solid  white;
 }
 .box3:hover{
-    background-color: #3Ded97;
+    background-color: #c6e158e4;
     color: black
 }
 
